@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+
+*{
+  padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body{
+  background-color: hsl(30, 38%, 92%);
+}
+
+main{    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-wrap: wrap;
+}
+
+img{
+  height: 50vh;
+  width: 35vh;
+}
+
+.product-details{
+  min-height: 50vh;
+  width: 35vh;
+  background-color: white;
+  text-align: left; 
+}
+
+.product{
+  color: hsl(228, 12%, 48%);
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-family: "Montserrat", sans-serif;
+  margin: 12px 20px;
+}
+
+.product-name{
+  font-size: 30px;
+  font-family: "Fraunces", serif;
+  padding: 25px;
+  line-height: 1.8rem;
+ margin-top: -15px;
+}
+
+.product-description{
+  color: hsl(228, 12%, 48%);
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  padding: 12px;
+  font-weight: 600;
+  line-height: 1.5rem;
+  margin: -14px 10px;
+}
+
+.product-price{
+  color: hsl(158, 36%, 37%);
+  font-family: "Fraunces", serif;
+  margin-top: 22px;
+  margin-left: 25px;
+}
+
+del{
+  font-size: 14px;
+  color: hsl(228, 12%, 48%);
+  padding: 10px;
+}
+
+button{
+  display: flex;
+  justify-content: center;
+  border: none;
+  height: 40px;
+  width: 80%;
+  margin: 20px 26px;
+  background-color: hsl(158, 36%, 37%);
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: hsl(158, 42%, 18%);
+}
+
+.icon{
+  height: 20px;
+  width: 20px;
+  padding: 2px;
+  margin: 8px;
+}
+
+.add{
+  padding: 2px;
+  margin: 8px;
+  font-family: "Montserrat", sans-serif;
+}
+
+@media (max-width: 600px){
+  @media (max-width: 600px) {
+  main {
+    flex-direction: column;        
+  }
+
+  img {
+    height: auto;
+  }
+
+  .product-details {
+    min-height: auto; 
+  }
+}
+}
