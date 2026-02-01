@@ -98,7 +98,7 @@ button:hover{
 
 .add{
   padding: 2px;
-  margin: 8px;
+  margin: 10px;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -115,4 +115,5 @@ button:hover{
     min-height: auto; 
     margin-top: -10px;
   }
+
 }
